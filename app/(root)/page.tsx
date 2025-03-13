@@ -9,7 +9,7 @@ const Home = async () => {
   console.log(JSON.stringify(result, null, 2));
   return (
     <>
-      <BookOverview {...sampleBooks[6]} />
+      <BookOverview {...sampleBooks[4]} />
 
       <BookList
         title="latest Books"
